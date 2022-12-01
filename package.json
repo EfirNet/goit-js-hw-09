@@ -12,10 +12,10 @@
     "url": "git+https://github.com/efirnet/goit-js-hw-09.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Denys Yefimov <efirnet@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/efirnet/goit-js-hw-09/issues"
   },
   "dependencies": {
     "flatpickr": "^4.6.13",
