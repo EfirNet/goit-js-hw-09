@@ -74,7 +74,7 @@ btnStart.addEventListener('click', () => {
       clearInterval(timer);
       Notiflix.Loading.pulse({
         clickToClose: true,
-        svgSize: '200px',
+        svgSize: '400px',
         svgColor: 'red',
         backgroundColor: 'rgba(255, 0, 0, 0.2)',
       });
