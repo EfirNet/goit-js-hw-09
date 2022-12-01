@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+button {
+ font-size: large;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.timer {
+  display: flex;
+  max-width: 600px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: palevioletred;
+  border: 2px solid white;
+    -webkit-box-shadow: 0px 3px 1px rgba(255, 0, 0, 0.1), 0px 1px 2px rgba(255, 0, 0, 0.08), 0px 2px 2px rgba(255, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px rgba(255, 0, 0, 0.1), 0px 1px 2px rgba(255, 0, 0, 0.08), 0px 2px 2px rgba(255, 0, 0, 0.12);
+}
+
+.field {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.value {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: xxx-large;
+  background-color: rgba(220, 20, 60, 0.74);
+  border: 2px solid palevioletred;
+  border-radius: 20%;
+    -webkit-box-shadow: 0px 3px 1px rgba(255, 0, 0, 0.1), 0px 1px 2px rgba(255, 0, 0, 0.08), 0px 2px 2px rgba(255, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px rgba(255, 0, 0, 0.1), 0px 1px 2px rgba(255, 0, 0, 0.08), 0px 2px 2px rgba(255, 0, 0, 0.12);
+}
+
+.label {
+  font-weight: bold;
+  text-transform: uppercase;
+   color: white;
+}
+
